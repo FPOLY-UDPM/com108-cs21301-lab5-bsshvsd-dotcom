@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Võ Quốc Thịnh]
+ * MSSV:      [21301024]
+ * Lớp:       [COM108]
  *****************************************************************************/
 
 //  BÀI 2: XÂY DỰNG HÀM TÍNH NĂM NHUẬN 
@@ -15,8 +15,23 @@
 //Tạo hàm 
 
 int main() {
+    //Khai báo biến
+    int nam;
+    //Nhập dữ liệu
+
+    printf("Nhap vao nam: ");
+    scanf("%d", &nam);
+    //Xử lý và xuất kết quả
+    if ((nam % 400 == 0) || (nam % 4 ==
+            0 && nam % 100 != 0)) {
+            printf("%d la nam nhuan.\n", nam);
+        } else {
+            printf("%d khong phai la nam nhuan.\n", nam);
+        }
+
 
     // //Gọi hàm trong hàm main 
+        
     
     return 0;
 }

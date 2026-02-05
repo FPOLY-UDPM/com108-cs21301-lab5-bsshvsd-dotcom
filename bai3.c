@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Võ Quốc Thịnh]
+ * MSSV:      [21301024]
+ * Lớp:       [COM108]
  *****************************************************************************/
 
 //  BÀI 3: XÂY DỰNG HÀM HOÁN VỊ 
@@ -15,8 +15,22 @@
 //Tạo hàm 
 
 int main() {
+    //Khai báo biến
+    int a, b, temp;
+    //Nhập dữ liệu
+    printf("Nhap gia tri a: ");
+    scanf("%d", &a);
+    printf("Nhap gia tri b: ");
+    scanf("%d", &b);
+    //Xử lý và xuất kết quả
+    printf("Truoc hoan vi: a = %d, b = %d\n", a, b);
+    temp = a;
+    a = b;
+    b = temp;
 
     // //Gọi hàm trong hàm main 
+    printf("Sau hoan vi: a = %d, b = %d\n", a, b);
+
     
     return 0;
 }
